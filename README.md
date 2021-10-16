@@ -15,10 +15,10 @@ independent this is done separately on a build host with `clang` installed.
 
 ## Build prerequisites
 
-Install `libelf` development files and `clang`. eg:
+Install `libelf`, `libbpf` development files and `clang`. eg:
 
 ```
-apt-get install libelf-dev clang
+apt-get install libelf-dev libbpf-dev clang
 ```
 
 ## Building
